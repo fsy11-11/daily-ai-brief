@@ -1,0 +1,27 @@
+{
+  "sources": [
+    { "name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml", "lang": "en", "category": "ai", "weight": 10 },
+    { "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "lang": "en", "category": "ai", "weight": 9 },
+    { "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "lang": "en", "category": "ai", "weight": 7 },
+    { "name": "arXiv CS.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "lang": "en", "category": "research", "weight": 5 },
+    { "name": "arXiv CS.CL", "url": "https://rss.arxiv.org/rss/cs.CL", "lang": "en", "category": "research", "weight": 5 },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "lang": "en", "category": "news", "weight": 6 },
+    { "name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "lang": "en", "category": "news", "weight": 6 },
+    { "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "lang": "en", "category": "news", "weight": 5 },
+    { "name": "Stratechery", "url": "https://stratechery.com/feed/", "lang": "en", "category": "deep", "weight": 8 },
+    { "name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "lang": "en", "category": "deep", "weight": 7 },
+    { "name": "Simon Willison", "url": "https://simonwillison.net/atom/entries/", "lang": "en", "category": "deep", "weight": 7 },
+    { "name": "The Register - AI", "url": "https://www.theregister.com/software/ai_ml/headlines.atom", "lang": "en", "category": "news", "weight": 5 },
+    { "name": "Wired - AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "lang": "en", "category": "news", "weight": 5 },
+    { "name": "量子位", "url": "https://www.qbitai.com/feed", "lang": "zh", "category": "ai", "weight": 7 },
+    { "name": "36氪", "url": "https://36kr.com/feed", "lang": "zh", "category": "news", "weight": 5 },
+    { "name": "少数派", "url": "https://sspai.com/feed", "lang": "zh", "category": "tech", "weight": 5 },
+    { "name": "虎嗅", "url": "https://www.huxiu.com/rss/0.xml", "lang": "zh", "category": "news", "weight": 5 }
+  ],
+  "settings": {
+    "maxArticlesPerSource": 8,
+    "maxTotalArticles": 80,
+    "lookbackHours": 36,
+    "outputDir": "./output"
+  }
+}
