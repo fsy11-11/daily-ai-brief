@@ -43,6 +43,17 @@ export interface CurationScores {
   clarity: number;
 }
 
+export interface ScoredArticle extends Article {
+  scores: CurationScores;
+  totalScore: number;
+}
+
+export interface ReviewResult {
+  pass: boolean;
+  issues: string[];
+  suggestions: string[];
+}
+
 export interface SourcesConfig {
   sources: RssSource[];
   settings: {
