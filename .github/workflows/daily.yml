@@ -28,6 +28,7 @@ jobs:
 
       - name: Generate and Send Daily Brief
         env:
+          TZ: Asia/Shanghai
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
